@@ -2,3 +2,5 @@ codeblocks/obj/
 codeblocks_win/obj/
 vc10/Debug/
 vc10/Release/
+codeblocks_win/bin/*/cache
+codeblocks_win/bin/*/*.txt
