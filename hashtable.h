@@ -10,7 +10,7 @@
 
 typedef struct _NodeHead{
 	_32BIT_INT	Next; /* This value can be HASHTABLE_NODE_END if this node is a end, HASHTABLE_NODE_UNUSED if this node has been removed, or a non-negative number otherwise. */
-	_32BIT_INT	Prev; /* If this value is negative, it denote the subscript of Slots, Prev == (-1) * (Subscript + 1). A non-negative number otherwise. */
+	_32BIT_INT	Prev; /* If this value is negative, it denotes the subscript of Slots, Prev == (-1) * (Subscript + 1). A non-negative number otherwise. */
 }NodeHead;
 
 typedef struct _HashTable{
