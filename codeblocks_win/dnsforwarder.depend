@@ -1,0 +1,298 @@
+# depslib dependency file v1.0
+1326424490 source:d:\my_file\vc\dnsforwarder\allocfree.c
+	<malloc.h>
+	"common.h"
+
+1360136362 d:\my_file\vc\dnsforwarder\common.h
+	<limits.h>
+	<stdlib.h>
+	<winsock2.h>
+	<windows.h>
+	<wininet.h>
+	<Shlwapi.h>
+	<ws2tcpip.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<unistd.h>
+	<errno.h>
+	<arpa/inet.h>
+	<pthread.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/mman.h>
+	<fcntl.h>
+	<sys/syscall.h>
+	<pwd.h>
+	<fnmatch.h>
+
+1360376577 source:d:\my_file\vc\dnsforwarder\dnscache.c
+	<stdio.h>
+	<string.h>
+	<math.h>
+	"dnscache.h"
+	"dnsparser.h"
+	"dnsgenerator.h"
+	"utils.h"
+	"querydnsbase.h"
+	"rwlock.h"
+	"hashtable.h"
+
+1358343677 d:\my_file\vc\dnsforwarder\dnscache.h
+	"dnsrelated.h"
+	"extendablebuffer.h"
+
+1358648419 d:\my_file\vc\dnsforwarder\dnsrelated.h
+	"common.h"
+
+1359513575 d:\my_file\vc\dnsforwarder\dnsparser.h
+	<limits.h>
+	"common.h"
+	"dnsrelated.h"
+
+1358309307 d:\my_file\vc\dnsforwarder\dnsgenerator.h
+	<string.h>
+	"dnsparser.h"
+
+1359522478 source:d:\my_file\vc\dnsforwarder\dnsgenerator.c
+	<stdio.h>
+	"dnsgenerator.h"
+	"utils.h"
+	"dnsparser.h"
+
+1359519395 source:d:\my_file\vc\dnsforwarder\dnsparser.c
+	<stdio.h>
+	<memory.h>
+	<string.h>
+	"dnsparser.h"
+	"dnsgenerator.h"
+
+1346504015 source:d:\my_file\vc\dnsforwarder\dnsrelated.c
+	"dnsrelated.h"
+
+1359167380 source:d:\my_file\vc\dnsforwarder\main.c
+	<stdio.h>
+	<string.h>
+	<time.h>
+	<stdlib.h>
+	<ctype.h>
+	<sys/types.h>
+	<sys/stat.h>
+	"dnsrelated.h"
+	"common.h"
+	"utils.h"
+	"readconfig.h"
+	"querydnsinterface.h"
+
+1359525324 d:\my_file\vc\dnsforwarder\querydnsbase.h
+	"common.h"
+	"dnscache.h"
+	"readconfig.h"
+	"extendablebuffer.h"
+
+1358472309 d:\my_file\vc\dnsforwarder\querydnslistentcp.h
+	"common.h"
+
+1358472378 d:\my_file\vc\dnsforwarder\querydnslistenudp.h
+	"common.h"
+
+1359700722 source:d:\my_file\vc\dnsforwarder\querydnsbase.c
+	<time.h>
+	<winsock2.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<net/if.h>
+	"querydnsbase.h"
+	"dnsparser.h"
+	"dnsgenerator.h"
+	"hosts.h"
+	"utils.h"
+	"excludedlist.h"
+	"addresslist.h"
+	"stringlist.h"
+
+1359525208 source:d:\my_file\vc\dnsforwarder\querydnslistentcp.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	"querydnslistentcp.h"
+	"querydnsbase.h"
+	"dnsrelated.h"
+	"dnsparser.h"
+	"dnsgenerator.h"
+	"common.h"
+	"utils.h"
+	"stringlist.h"
+	"excludedlist.h"
+	"addresslist.h"
+
+1359525208 source:d:\my_file\vc\dnsforwarder\querydnslistenudp.c
+	<stdio.h>
+	<string.h>
+	<time.h>
+	<stdlib.h>
+	"querydnslistenudp.h"
+	"querydnsbase.h"
+	"dnsrelated.h"
+	"dnsparser.h"
+	"common.h"
+	"utils.h"
+	"stringlist.h"
+	"excludedlist.h"
+
+1359683275 d:\my_file\vc\dnsforwarder\utils.h
+	<stdlib.h>
+	<stdio.h>
+	"common.h"
+
+1359689156 source:d:\my_file\vc\dnsforwarder\utils.c
+	<stdlib.h>
+	<ctype.h>
+	<stdio.h>
+	<string.h>
+	<time.h>
+	<math.h>
+	"common.h"
+	"utils.h"
+	"dnsgenerator.h"
+	<wincrypt.h>
+
+1357012356 source:d:\my_file\vc\dnsforwarder\readconfig.c
+	<ctype.h>
+	<stdio.h>
+	<string.h>
+	"readconfig.h"
+	"utils.h"
+	"readline.h"
+
+1357011108 d:\my_file\vc\dnsforwarder\readconfig.h
+	<stdio.h>
+	"common.h"
+
+1358471377 d:\my_file\vc\dnsforwarder\querydnsinterface.h
+	"common.h"
+
+1359167728 source:d:\my_file\vc\dnsforwarder\querydnsinterface.c
+	<string.h>
+	"common.h"
+	"querydnsinterface.h"
+	"querydnsbase.h"
+	"querydnslistentcp.h"
+	"querydnslistenudp.h"
+	"readconfig.h"
+	"hosts.h"
+	"excludedlist.h"
+	"utils.h"
+
+1360376566 source:d:\my_file\vc\dnsforwarder\hosts.c
+	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
+	<time.h>
+	"hosts.h"
+	"hashtable.h"
+	"dnsrelated.h"
+	"dnsgenerator.h"
+	"common.h"
+	"utils.h"
+	"downloader.h"
+	"readline.h"
+	"stringlist.h"
+	"querydnsbase.h"
+	"rwlock.h"
+
+1360121726 source:d:\my_file\vc\dnsforwarder\array.c
+	<string.h>
+	<math.h>
+	"array.h"
+	"utils.h"
+
+1360306382 d:\my_file\vc\dnsforwarder\array.h
+	"common.h"
+
+1359642200 d:\my_file\vc\dnsforwarder\hosts.h
+	"querydnsbase.h"
+	"extendablebuffer.h"
+
+1360285954 source:d:\my_file\vc\dnsforwarder\hashtable.c
+	<string.h>
+	"hashtable.h"
+	"common.h"
+	"utils.h"
+
+1360285946 d:\my_file\vc\dnsforwarder\hashtable.h
+	"array.h"
+
+1356844741 d:\my_file\vc\dnsforwarder\retcode.h
+
+1360291915 source:d:\my_file\vc\dnsforwarder\stringlist.c
+	<string.h>
+	"stringlist.h"
+	"utils.h"
+
+1359642953 d:\my_file\vc\dnsforwarder\stringlist.h
+	"common.h"
+	"extendablebuffer.h"
+
+1356842738 source:d:\my_file\vc\dnsforwarder\retcode.c
+	<stdlib.h>
+	<limits.h>
+	"retcode.h"
+	"common.h"
+
+1358917149 source:d:\my_file\vc\dnsforwarder\downloader.c
+	<stdio.h>
+	<stdlib.h>
+	"common.h"
+	<limits.h>
+	"downloader.h"
+
+1356927551 d:\my_file\vc\dnsforwarder\downloader.h
+
+1358476351 d:\my_file\vc\dnsforwarder\readline.h
+	<stdio.h>
+
+1358478792 source:d:\my_file\vc\dnsforwarder\readline.c
+	<ctype.h>
+	<string.h>
+	"common.h"
+	"readline.h"
+
+1360306544 d:\my_file\vc\dnsforwarder\extendablebuffer.h
+	"common.h"
+
+1360291933 source:d:\my_file\vc\dnsforwarder\extendablebuffer.c
+	<string.h>
+	"extendablebuffer.h"
+	"utils.h"
+
+1360376566 source:d:\my_file\vc\dnsforwarder\excludedlist.c
+	<string.h>
+	<time.h>
+	"excludedlist.h"
+	"querydnsbase.h"
+	"utils.h"
+	"downloader.h"
+	"readline.h"
+	"array.h"
+	"common.h"
+	"rwlock.h"
+
+1358486986 d:\my_file\vc\dnsforwarder\excludedlist.h
+	"stringlist.h"
+
+1360404075 source:d:\my_file\vc\dnsforwarder\addresslist.c
+	<stdio.h>
+	<ctype.h>
+	"addresslist.h"
+	"common.h"
+	"utils.h"
+
+1360135952 d:\my_file\vc\dnsforwarder\addresslist.h
+	"array.h"
+	"common.h"
+
+1358843431 d:\my_file\vc\dnsforwarder\rwlock.h
+	"common.h"
+

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="dnsforwarder" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="/tmp/bin/Debug/dnsforwarder" prefix_auto="1" extension_auto="1" />
+				<Option object_output="/tmp/obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters='-f &quot;/home/ho121/.dnsforwarder&quot;' />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="./bin/Release/dnsforwarder" prefix_auto="1" extension_auto="1" />
+				<Option object_output="./obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters='-f &quot;/home/ho121/.dnsforwarder&quot;' />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add option="-lcurl -lssl -lcrypto -lldap -lrt -lssl -lcrypto -lz" />
+			<Add library="pthread" />
+		</Linker>
+		<Unit filename="../addresslist.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../addresslist.h" />
+		<Unit filename="../array.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../array.h" />
+		<Unit filename="../common.h" />
+		<Unit filename="../dnscache.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../dnscache.h" />
+		<Unit filename="../dnsgenerator.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../dnsgenerator.h" />
+		<Unit filename="../dnsparser.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../dnsparser.h" />
+		<Unit filename="../dnsrelated.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../dnsrelated.h" />
+		<Unit filename="../downloader.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../downloader.h" />
+		<Unit filename="../excludedlist.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../excludedlist.h" />
+		<Unit filename="../extendablebuffer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../extendablebuffer.h" />
+		<Unit filename="../hashtable.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../hashtable.h" />
+		<Unit filename="../hosts.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../hosts.h" />
+		<Unit filename="../main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../querydnsbase.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../querydnsbase.h" />
+		<Unit filename="../querydnsinterface.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../querydnsinterface.h" />
+		<Unit filename="../querydnslistentcp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../querydnslistentcp.h" />
+		<Unit filename="../querydnslistenudp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../querydnslistenudp.h" />
+		<Unit filename="../readconfig.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../readconfig.h" />
+		<Unit filename="../readline.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../readline.h" />
+		<Unit filename="../stringlist.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../stringlist.h" />
+		<Unit filename="../utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../utils.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
