@@ -1,6 +1,8 @@
 dnsforwarder
 ============
 
+All the sources are free for non-commercial use.
+
 Necessary libraries:
 
   For Linux:
